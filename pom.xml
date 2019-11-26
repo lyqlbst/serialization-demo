@@ -14,6 +14,18 @@
             <artifactId>lombok</artifactId>
             <version>RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
