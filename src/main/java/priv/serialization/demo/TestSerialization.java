@@ -1,6 +1,8 @@
 package priv.serialization.demo;
 
 import priv.serialization.demo.jdk.JdkSerialization;
+import priv.serialization.demo.json.FastJsonSerialization;
+import priv.serialization.demo.json.JacksonSerialization;
 import priv.serialization.demo.messagepack.MessagePackSerialization;
 import priv.serialization.demo.protobuf.ProtoBufSerialization;
 
@@ -28,6 +30,8 @@ public class TestSerialization {
         testSerialization(new JdkSerialization());
         testSerialization(new MessagePackSerialization());
         testSerialization(new ProtoBufSerialization());
+        testSerialization(new JacksonSerialization());
+        testSerialization(new FastJsonSerialization());
     }
 
     /**
